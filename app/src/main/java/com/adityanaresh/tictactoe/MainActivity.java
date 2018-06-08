@@ -83,8 +83,8 @@ public class MainActivity extends Activity {
         Button play = findViewById(R.id.palyAgain);
         TextView wintext = findViewById(R.id.winner);
 
-        play.setVisibility(View.VISIBLE);
-        wintext.setVisibility(View.VISIBLE);
+        play.setVisibility(View.INVISIBLE);
+        wintext.setVisibility(View.INVISIBLE);
         GridLayout grid = findViewById(R.id.gridLayout);
         for (int i = 0; i<grid.getChildCount(); i++){
             ImageView image = (ImageView) grid.getChildAt(i);
