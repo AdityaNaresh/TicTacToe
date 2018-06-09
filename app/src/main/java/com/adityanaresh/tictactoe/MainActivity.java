@@ -44,7 +44,6 @@ public class MainActivity extends Activity {
                     state = true;
                     if (active == 0){
                         winner = "Yellow";
-                        break;
                     }
                     else {
                         winner = "Red";
